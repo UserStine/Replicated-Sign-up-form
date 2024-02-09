@@ -1,6 +1,8 @@
+/*Body styles*/
 body {
   background-color: #373942;
 }
+/*Container styles*/
 .container {
   width: 100%;
   height: auto;
@@ -15,7 +17,7 @@ body {
   opacity: 0.2;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 2);
 }
-
+/*navbar styles*/
 .nav {
   z-index: 3;
 }
@@ -42,6 +44,7 @@ body {
   padding: 10px 30px;
   z-index: 1;
 }
+/*search box styles*/
 .search-box input[type="text"] {
   padding: 5px;
   border: none;
@@ -57,6 +60,7 @@ body {
   margin-right: 450px;
   right: -80%;
 }
+/*text styling*/
 .Par {
   color: white;
   margin-left: 20px;
@@ -117,6 +121,7 @@ body {
   font-size: small;
   margin-left: 200px;
 }
+/*buttons styles*/
 .buttons {
   display: flex;
   margin-top: 20px;
@@ -151,7 +156,7 @@ body {
 .btn:hover {
   background-color: #0056b3;
 }
-
+/*Overlay styling*/
 .overlay {
   position: absolute;
   top: -90px;
@@ -180,7 +185,7 @@ body {
   top: -5px;
   right: 250px;
 }
-
+/*form styling*/
 form {
   position: absolute;
   top: -300px;
